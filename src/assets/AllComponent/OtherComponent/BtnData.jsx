@@ -3,6 +3,7 @@ import { NavLink, useLoaderData } from 'react-router-dom';
 
 const BtnData = () => {
     const data = useLoaderData([]);
+  
 
     if (!data) {
         return <p>Loading...</p>; // 🔹 যদি data লোড না হয়, তাহলে লোডিং দেখাবে।

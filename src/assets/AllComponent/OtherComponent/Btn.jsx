@@ -12,7 +12,7 @@ const Btn = () => {
                     <Outlet></Outlet>
                 </div>
                 <div className="grid col-span-2">
-                    <ProductData></ProductData>
+                   <ProductData></ProductData>
                 </div>
             </div>
         </Link>

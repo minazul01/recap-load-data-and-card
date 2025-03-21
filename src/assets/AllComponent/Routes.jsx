@@ -4,7 +4,7 @@ import {
 import MainLayout from "./MainLayout";
 import Btn from "./OtherComponent/Btn";
 import BtnData from "./OtherComponent/BtnData";
-import ProductData from "./OtherComponent/ProductData";
+
 
 
 
@@ -18,7 +18,7 @@ import ProductData from "./OtherComponent/ProductData";
                 element: <Btn></Btn>,
                    children: [
                     {
-                      path:'/',
+                      path:'/:id',
                       element: <BtnData></BtnData>,
                       loader: () => fetch('./Category.json')
                     },

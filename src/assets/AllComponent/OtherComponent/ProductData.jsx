@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 
+
+
 const ProductData = () => {
     const [Product, setProduct] = useState([]);
     
@@ -11,7 +13,6 @@ const ProductData = () => {
             })
     }, []);
 
-    console.log(Product); // For debugging to check the data structure
     
     return (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
